@@ -1,0 +1,134 @@
+﻿@page
+@model Taller.App.Front.Pages.GestionVehiculoModel
+
+@{
+    <Html lang="es">
+
+    <head>
+        <meta charset="UFT-8" />
+        <meta name="description" content="pagina de Taller Mintic 2022" />
+        <meta name="robots" content="index,follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <h1 style="border: 1px solid black; background-color:#d3ecf2">
+                    <p>Lista Global Vehiculos</p>
+                </h1>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Vista de: <cite title="Source Title">Jefe Operaciones</cite>
+            </figcaption>
+        </figure>
+
+        <table class="table" style="border: form-control border-success;">
+            <thead style="border: 1px solid black; background-color:#d3ecf2">
+                <tr class="text-center">
+                    <th scope="col">Selección</th>
+                    <th scope="col">Propietario</th>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Linea</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Cilindraje</th>
+                    <th scope="col">Capacidad</th>
+                    <th scope="col">Pais Origen</th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid black">
+                <tr class="text-center"  style="background-color: white;">
+                    <th class="form-check">
+                        <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+
+                        </label>
+                    </th>
+                    <th scope="row">Freddy Galvez</th>
+                    <td>EJN704</td>
+                    <td>Toyota</td>
+                    <td>Hilux</td>
+                    <td>2018</td>
+                    <td>2400 cc</td>
+                    <td>4 psj</td>
+                    <td>Japon</td>
+                </tr>
+                <tr class="text-center" style="background-color:#d3ecf2 ;">
+                    <th class="form-check">
+                        <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+
+                        </label>
+                    </th>
+                    <th scope="row">Alex Orjuela</th>
+                    <td>CKT430</td>
+                    <td>Chevrolet</td>
+                    <td>D-max</td>
+                    <td>2006</td>
+                    <td>2500 cc</td>
+                    <td>4 psj</td>
+                    <td>Usa</td>
+                </tr>
+                <tr class="text-center"  style="background-color: white;">
+                    <th class="form-check">
+                        <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+
+                        </label>
+                    </th>
+                    <th scope="row">Luis Sarmiento</th>
+                    <td>FGW863</td>
+                    <td>Renault</td>
+                    <td>Twingo</td>
+                    <td>2012</td>
+                    <td>1200 cc</td>
+                    <td>4 psj</td>
+                    <td>Francia</td>
+                </tr>
+                <tr class="text-center" style="background-color:#d3ecf2 ;">
+                    <th class="form-check">
+                        <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+
+                        </label>
+                    </th>
+                    <th scope="row">Wilson Lopez</th>
+                    <td>HBO465</td>
+                    <td>Ford</td>
+                    <td>Ranger</td>
+                    <td>2017</td>
+                    <td>3200 cc</td>
+                    <td>4 psj</td>
+                    <td>Usa</td>
+                </tr>
+                <tr class="text-center"  style="background-color: white;">
+                   <th class="form-check">
+                        <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+
+                        </label>
+                    </th>
+                    <th scope="row">Pedro Morales</th>
+                    <td>ZTX112</td>
+                    <td>Chevrolet</td>
+                    <td>Aveo</td>
+                    <td>2020</td>
+                    <td>1400 cc</td>
+                    <td>4 psj</td>
+                    <td>Usa</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="button" class="btn btn-primary" style="padding: 10px; border:1px solid black">Editar</button>
+        <button type="button" class="btn btn-danger" style="padding: 10px; border:1px solid black" >Eliminar</button>
+        
+      
+    </body>
+
+    </Html>
+}
+
+
