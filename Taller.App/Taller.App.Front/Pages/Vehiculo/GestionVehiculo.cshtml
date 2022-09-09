@@ -39,7 +39,7 @@
                 </tr>
             </thead>
             <tbody style="border: 1px solid black">
-                <tr class="text-center"  style="background-color: white;">
+                <tr class="text-center" style="background-color: white;">
                     <th class="form-check">
                         <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
@@ -71,7 +71,7 @@
                     <td>4 psj</td>
                     <td>Usa</td>
                 </tr>
-                <tr class="text-center"  style="background-color: white;">
+                <tr class="text-center" style="background-color: white;">
                     <th class="form-check">
                         <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
@@ -103,8 +103,8 @@
                     <td>4 psj</td>
                     <td>Usa</td>
                 </tr>
-                <tr class="text-center"  style="background-color: white;">
-                   <th class="form-check">
+                <tr class="text-center" style="background-color: white;">
+                    <th class="form-check">
                         <input class="form-check-input; check-center" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
 
@@ -123,12 +123,53 @@
         </table>
 
         <button type="button" class="btn btn-primary" style="padding: 10px; border:1px solid black">Editar</button>
-        <button type="button" class="btn btn-danger" style="padding: 10px; border:1px solid black" >Eliminar</button>
-        
-      
+        <button type="button" class="btn btn-danger" style="padding: 10px; border:1px solid black">Eliminar</button>
+
+
+        <form class="card"
+            style=" width: 18rem; background-color: #d3ecf2; margin: 100px 25px 75px 500px; padding: 15px 15px 15px 15px;">
+            <h5>Consultar Informacion Vehiculo</h5>
+            <div class="card-cody">
+                <div class="mb-3">
+                    <label for="exampleInputPlaca1" class="form-label" style="color: black;">Ingresa la Placa</label>
+                    <input type="search" class="form-control" id="exampleInputPlaca1" aria-describedby="placaHelp" value="EJN704">
+                    <div id="placaHelp" class="form-text">Ingresa una placa existente en la base de datos</div>
+                    <button type="search" class="btn btn-primary">Buscar</button>
+                </div>
+            </div>
+
+        </form>
+
+        <table class="table" style="border: form-control border-success;">
+            <thead style="border: 1px solid black; background-color:#d3ecf2">
+                <tr class="text-center">
+                   
+                    <th scope="col">Propietario</th>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Linea</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Cilindraje</th>
+                    <th scope="col">Capacidad</th>
+                    <th scope="col">Pais Origen</th>
+                </tr>
+            </thead>
+            <tbody>
+           <tr class="text-center" style="background-color: white; border: 1px solid black"> 
+                    <th scope="row">Freddy Galvez</th>
+                    <td>EJN704</td>
+                    <td>Toyota</td>
+                    <td>Hilux</td>
+                    <td>2018</td>
+                    <td>2400 cc</td>
+                    <td>4 psj</td>
+                    <td>Japon</td>
+                </tr>
+          
+            </tbody>
+        </table>
+
     </body>
 
     </Html>
 }
-
-
