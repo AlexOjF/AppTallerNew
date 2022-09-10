@@ -1,7 +1,95 @@
 ﻿@page
 @model Taller.App.Front.Pages.GestionMecanicoModel
-@{
+@{ <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Celular</th>
+        <th scope="col">Fecha de Nacimiento</th>
+        <th scope="col">Correo</th>
+        <th scope="col">Dirección</th>
+        <th scope="col">Estudios</th>
 
-  
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Fredy Galvez</td>
+        <td>3205564378</td>
+        <td>01/07/89</td>
+        <td>xxx@hotmail</td>
+        <td>cra45 # 25 30</td>
+        <td>Electrico Automotriz</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Alex Orjuela</td>
+        <td>3134569842</td>
+        <td>09/09/00</td>
+        <td>yyyy@gmail</td>
+        <td>calle 35 # 28 89</td>
+        <td>Mecanico</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Luis Sarmiento</td>
+        <td>3167898654</td>
+        <td>30/01/88</td>
+        <td>www@gmail</td>
+        <td>av 16 # 29 21</td>
+        <td>Mecanico general</td>
+      </tr>
+    </tbody>
+  </table>
+}
+
+@{
+  <form class="card" style=" width: 25rem; background-color:#d3ecf2; padding: 30px; border:1px solid black; margin: 100px 25px 75px 500px">
+    <legend>Registro Mecanico</legend>
+    <div >
+      <p>Nombre</p>
+      <input type="text" class="form-control" id="inputAddress2">
+    </div>
+    <div >
+      <p>Celular</p>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div >
+      <FONT>Fecha de Nacimiento </FONT>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div >
+      <FONT>Correo </FONT>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div >
+      <FONT>Dirección </FONT>
+      <input type="text" class="form-control" id="inputAddress">
+    </div>
+    <div class="col-md-">
+      <FONT>Estudios </FONT>
+      <select class="form-select" aria-label="Default select example">
+        <option value="1">Bachiller</option>
+        <option value="2">Técnico</option>
+        <option value="3">Tecnologo</option>
+        <option value="4">Profesional</option>
+      </select>
+    </div>
+    <br />
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Agregar</button>
+    </div>
+    <br />
+    <div class="col-med-12">
+      <button type="submit" class="btn btn-primary">Modificar</button>
+    </div>
+    <br />
+    <div class="col-med-12">
+      <button type="submit" class="btn btn-danger">Eliminar</button>
+    </div>
+  </form>
 
 }

@@ -5,10 +5,8 @@ namespace Taller.App.Front.Pages
 {
     public class GestionMecanicoModel : PageModel
     {
-        
         public void OnGet()
         {
         }
     }
-    
 }
